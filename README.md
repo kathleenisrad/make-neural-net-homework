@@ -11,6 +11,7 @@ From Kaggle:
 ## Data:
 I downloaded the MINST data from the Kaggle website. The data was in the format of a CSV file that contained 785 columns and 42000 rows. The first column was the label, ie. which number was written. Each of the other columns contained a number between 0 and 255. These numbers represent the "color" of each of the 784 pixels in a 28x28 pixel image of a handwritten number, with 0 representing white and 255 representing black. 
 
+Example visualizations of data:
 ![](./assets/visualizations.png)
 
 ## Results:
@@ -19,10 +20,11 @@ Here is the model that a built:
 
 ![](./assets/model.png)
 
+I used the cross-entropy loss function, Adam optimizer, and trained for 10 epochs.  
+At the end of 10 epochs, I got a loss of 0.0972 and an accuracy of 0.9893.  
+
 Here are some of the predictions that it generated:
 
 ![](./assets/predictions.png)
 
-
-
-I got a 0.98110 on Kaggle.
+I submitted my predictions to Kaggle, where they have extra test data and I got a 0.98110 accuracy.
