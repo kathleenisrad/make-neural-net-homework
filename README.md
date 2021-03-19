@@ -17,7 +17,7 @@ Example visualizations of data:
 
 ## Results:
 
-Here is the model that a built:
+Here is the model that I built:
 
 ![](./assets/model.png)
 
